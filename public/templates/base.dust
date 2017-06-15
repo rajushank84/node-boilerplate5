@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>App name</title>
+		<link rel="stylesheet" href="css/app.css" />
+	</head>
+
+	<body>
+
+		{>"public/templates/inc/header.dust"/}
+
+		<div class="container-fluid" id="container">
+			<div class="row-fluid">
+
+				<div id="content" class="span9">
+					Content comes here
+				</div>
+			</div>
+		</div>
+
+		<script src="js/lib/dust-core-1.0.0.js"></script>
+	</body>
+</html>
